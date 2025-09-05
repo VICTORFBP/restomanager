@@ -1,0 +1,22 @@
+:root {
+  --color-vino: #8B3A3A;
+  --color-oliva: #4C8A2B;
+  --color-dorado: #C19A3A;
+  --color-rojo-quemado: #A33A3A;
+  --color-beige: #FAF7F2;
+  --border-radius: 12px;
+  --font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--color-beige);
+  color: var(--color-vino);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}

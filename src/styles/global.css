@@ -1,0 +1,59 @@
+.ant-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(139, 58, 58, 0.2);
+}
+
+.ant-btn {
+  border-radius: 12px;
+}
+
+.badge-libre {
+  background-color: var(--color-oliva);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.badge-ocupada {
+  background-color: var(--color-rojo-quemado);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.badge-reservada {
+  background-color: var(--color-dorado);
+  color: var(--color-vino);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.tag-preparando {
+  background-color: var(--color-dorado);
+  color: var(--color-vino);
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.tag-listo {
+  background-color: var(--color-oliva);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.hero-bg {
+  background: linear-gradient(to right, var(--color-vino), var(--color-beige));
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  color: var(--color-beige);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  font-size: 2rem;
+  font-weight: 700;
+}
